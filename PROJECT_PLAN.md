@@ -23,12 +23,12 @@
 **📅 Monday, 10 Feb**
 
 ### Data & Problem Understanding
-- [ ] Download Zindi data
-- [ ] Save data to `data/raw/`
-- [ ] Confirm data is ignored by Git
-- [ ] Read competition description carefully
-- [ ] Clarify target definition
-- [ ] Identify unit of observation
+- [x] Download Zindi data
+- [x] Save data to `data/raw/`
+- [x] Confirm data is ignored by Git
+- [x] Read competition description carefully
+- [x] Clarify target definition
+- [x] Identify unit of observation
 
 ### First EDA
 - [ ] Load data into `01_eda.ipynb`
@@ -43,7 +43,7 @@
 ---
 
 ## 🟢 Session 2 — EDA with Intent
-**📅 Friday, 14 Feb**
+**📅 Friday, 13 Feb**
 
 - [ ] Explore target distribution
 - [ ] Inspect key feature distributions
@@ -59,7 +59,7 @@
 ---
 
 ## 🟡 Session 3 — Feature Logic & Modeling Plan
-**📅 Saturday, 15 Feb (morning)**
+**📅 Saturday, 14 Feb (morning)**
 
 - [ ] Group features (numeric / categorical / drop)
 - [ ] Decide encoding strategy
@@ -75,7 +75,7 @@
 ---
 
 ## 🔵 Session 4 — Baseline Model & First Submission
-**📅 Saturday, 15 Feb (afternoon)**
+**📅 Saturday, 14 Feb (afternoon)**
 
 - [ ] Build preprocessing pipeline
 - [ ] Train baseline model
@@ -105,7 +105,7 @@
 ---
 
 ## 🟣 Session 6 — Wrap & Reflection
-**📅 Saturday, 22 Feb**
+**📅 Saturday, 21 Feb**
 
 - [ ] Decide on final submission
 - [ ] Clean notebooks
@@ -120,7 +120,7 @@
 ---
 
 ## 🔚 Buffer (Optional)
-**📅 23 Feb – 1 March**
+**📅 23 Feb – 28 Feb**
 
 - [ ] Extra submission if inspired
 - [ ] Final polish
