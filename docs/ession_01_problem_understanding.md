@@ -20,15 +20,17 @@ Surely, demographics, Size, ability to repay loans* and reselience* of a busines
 ---
 
 ## 4. Evaluation Metric
-- **Metric used: ** F1-Score/ Weighted F1-Score (Might have to be weighted since ordinal classifiacation problem/ranking 
-- **What good performance means:  ** Our model is able to accurately rank SMEs from low, medium or high
-- **Why this metric fits the problem: ** Good for striking a balance between presicion and recall, especially where class imbalances exist 
----
+- **Metric used: ** F1-Score (as per challenge rules)  (Will have to train ordinal classifiacation problem/ranking with F1-evalution)
+- **What good performance means:  ** Our model is able to accurately rank SMEs from low, medium or high. When model misclaffies it is atleast the nearest level. Distance matters.
+- **Why this metric fits the problem: ** Good for striking a balance between presicion and recall, especially where class imbalances exist (Weighted f1-score) .
+
+- Although the competition evaluates submissions using the F1-score, the target variable is ordinal in nature (Low < Medium < High). To respect this ordering, the modelling approach incorporates cost-sensitive and order-aware training strategies that penalise extreme misclassifications more heavily than adjacent ones. Final model evaluation remains aligned with the competition metric, while internal diagnostics ensure predictions preserve the underlying rank structure.
 
 ## 5. Business Context
 - By quantifying SME financial health, we would be supporting data driven policies and inclusive financial strategies. 
 - Governments and development institutions could use it to identify and offer targetted support to vulnerable SMEs, finacial institutions can better assess credit risk
-- If predictions are wrong, this could impact an SMEs prospects of succeding as this would mean limited access to credit faciliies.
+- If predictions are wrong, this could impact an SMEs prospects of succeding as this would mean limited access to credit faciliies if incorrectly classified as Bad.
+- If incorrectly classified as good, this could exclude an SME from much needed support, while possibly resulting in reckless/crippling credit rendering by financial institutions using this index.
 
 ---
 
